@@ -1,5 +1,34 @@
+"use client";
+
+import React, { useEffect } from "react";
+import Header from "@/components/Header";
+import Intro from "@/components/Intro";
+import Site from "@/components/Site";
+import Skill from "@/components/Skill";
+import Skip from "@/components/Skip";
+import Port from "@/components/Skip";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import lenis from "@/utils/lenis";
+import link from "@/utils/link";
+
 export default function Home(){
+  useEffect(() => {
+    lenis();
+    link();
+  }, []);
   return (
-    <div>Home</div>
+    <>
+      <Skip />
+      <Header />
+      <main id="main" role="main">
+        <Intro />
+        <Skill />
+        <Site />
+        <Port />
+        <Contact />        
+      </main>
+      <Footer />
+    </>
   )
 }
