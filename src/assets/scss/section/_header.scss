@@ -1,10 +1,15 @@
 #header {
-    @include position-fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 10000;
  }
  .header_inner {
-    @include flex-between;
-     background: rgba(116, 99, 99, 0.1);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background: rgba(7, 223, 243, 0.1);
      backdrop-filter: blur(15px);
      padding: 1rem;
  
