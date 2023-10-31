@@ -21,8 +21,8 @@ const Site = () => {
                 {site.title}
             </h3>
             <div className="btn">
-                <a href={site.code}>code</a>
-                <a href={site.view}>view</a>
+                <a href={site.code}>코드확인하기</a>
+                <a href={site.view}>사이트 보러가기 </a>
             </div>
             <div className="info">
                 <span>{site.info[0]}</span>

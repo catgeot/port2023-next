@@ -6,7 +6,7 @@ import Intro from "@/components/Intro";
 import Site from "@/components/Site";
 import Skill from "@/components/Skill";
 import Skip from "@/components/Skip";
-import Port from "@/components/Skip";
+import Port from "@/components/Port";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import lenis from "@/utils/lenis";
